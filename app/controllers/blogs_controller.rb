@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
-  layout "blog"  
+  layout "blog"
 
   # GET /blogs
   # GET /blogs.json
@@ -44,7 +44,7 @@ class BlogsController < ApplicationController
   def update
     respond_to do |format|
       if @blog.update(blog_params)
-        format.html { redirect_to @blog, notice: 'Post is successfully updated.' }
+        format.html { redirect_to @blog, notice: 'Blog was successfully updated.' }
       else
         format.html { render :edit }
       end
@@ -81,4 +81,4 @@ class BlogsController < ApplicationController
     def blog_params
       params.require(:blog).permit(:title, :body)
     end
-end
+  end
