@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    TechcampViewTool::Renderer.copyright 'Adryan Yudhatrisna', 'Production'
+  end
 end
