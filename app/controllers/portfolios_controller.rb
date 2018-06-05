@@ -9,6 +9,10 @@ class PortfoliosController < ApplicationController
     @react_portfolio_items = Portfolio.react
   end
 
+  def angular
+    @angular_portfolio_items = Portfolio.angular
+  end
+
   def new
     @portfolio_item = Portfolio.new
     3.times { @portfolio_item.technologies.build }
