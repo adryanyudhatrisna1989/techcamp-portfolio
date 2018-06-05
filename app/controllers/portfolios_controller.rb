@@ -50,7 +50,6 @@ class PortfoliosController < ApplicationController
   end
 
    def destroy
-
     # Destroy/delete the record
     @portfolio_item.destroy
 
@@ -59,6 +58,7 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
   end
+
 
   private
 
