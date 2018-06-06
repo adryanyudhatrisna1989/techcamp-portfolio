@@ -61,3 +61,4 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 
 gem 'techcamp_view_tool', git: 'https://github.com/adryanyudhatrisna1989/techcamp_view_tool'
+gem 'petergate', '~> 1.8', '>= 1.8.1'
