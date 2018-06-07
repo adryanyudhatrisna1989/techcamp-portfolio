@@ -7,9 +7,6 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore these two files
-/simple.txt
-/index.html
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
