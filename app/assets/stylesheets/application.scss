@@ -51,6 +51,7 @@ margin-left: auto;
 * Header
 */
 .masthead {
+width: 100%;
 margin-bottom: 2rem;
 }
 
@@ -107,6 +108,7 @@ font-weight: 700;
 * Footer
 */
 .mastfoot {
+width: 55rem;
 color: rgba(255, 255, 255, .5);
 }
 
@@ -125,4 +127,10 @@ color: black;
 
 .register-text {
 text-align: right;
+}
+
+.login > .card {
+width: 22rem;
+margin: 0 auto;
+float: none;
 }
