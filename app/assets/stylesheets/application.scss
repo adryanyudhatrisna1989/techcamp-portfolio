@@ -55,6 +55,7 @@ margin-bottom: 2rem;
 }
 
 .masthead-brand {
+margin-left: 0;
 margin-bottom: 0;
 }
 
@@ -109,6 +110,10 @@ font-weight: 700;
 color: rgba(255, 255, 255, .5);
 }
 
+/*
+* Custom Styles
+*/
+
 .card-body {
 color: black;
 text-align: left;
@@ -118,6 +123,6 @@ text-align: left;
 color: black;
 }
 
-.auth-links a {
-color: black;
+.register-text {
+text-align: right;
 }
