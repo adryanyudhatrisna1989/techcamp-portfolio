@@ -62,3 +62,5 @@ gem 'jquery-rails'
 
 gem 'techcamp_view_tool', git: 'https://github.com/adryanyudhatrisna1989/techcamp_view_tool'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
