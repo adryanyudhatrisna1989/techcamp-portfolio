@@ -22,9 +22,10 @@
 
 /public/assets
 .byebug_history
-.env
+
 
 # Ignore master key for decrypting credentials and more.
 /config/storage.yml
 /config/master.key
 /config/credentials.yml
+.env
