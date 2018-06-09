@@ -22,7 +22,7 @@
 
 /public/assets
 .byebug_history
-.package.json
+/package.json
 
 
 # Ignore master key for decrypting credentials and more.
